@@ -1,0 +1,134 @@
+
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+.cabecera {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.logo-sony {
+    width: 120px;
+}
+
+.buscador {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.logo-telefono {
+    width: 32px;
+    margin-left: 20px;
+}
+
+.numero-telefono {
+    color: white;
+    margin-left: 10px;
+}
+
+.menu-opciones ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-opciones ul li {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navegador {
+    background-color: white;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.navegador ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.seccionbanner {
+    background-image: url(ExamenProgra/img/bannerm.JPG);
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px;
+}
+
+.seccionbanner h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.seccionbanner span {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.seccionbanner h3 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.seccionbanner button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:#5787f4;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.comunicado {
+    color: black;
+    font-size: 14px;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.comunicado i {
+    color: orangered;
+}
+
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contenedor-tarjetas article img {
+    width: 200px;
+    height: 150px;
+}
